@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="main.js"></script>
-    <title>Document</title>
+    <title>drums</title>
 </head>
 <body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="87" class="key">
+            <kbd>W</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">clap</span>
+        </div>
+    </div>
     
+    <audio data-key="65" src="./sounds/mixkit-plastic-cd-cover-close-hard-486.wav"></audio>
+    <audio data-key="87" src="./sounds/mixkit-plastic-cd-cover-close-hard-486.wav"></audio>
+    <audio data-key="83" src="./sounds/mixkit-plastic-cd-cover-close-hard-486.wav"></audio>
+    <audio data-key="68" src="./sounds/mixkit-plastic-cd-cover-close-hard-486.wav"></audio>
 </body>
 </html>
